@@ -41,6 +41,9 @@ def about(request):
     text=open('WebOrdering/about.html').read()
     return HttpResponse(text)
 
+def contact(request):
+    text=open('WebOrdering/contact.html').read()
+    return HttpResponse(text)
 
 def get_food_list():
     db=sqlite3.connect('WebOrdering/menu.db')

@@ -12,6 +12,9 @@ $(function(){
 	$('#about').click(function(){
 		window.location.href='../about';
 	})
+	$('#contact').click(function(){
+		window.location.href='../contact';
+	})
 	$('#home').click(function(){
 		window.location.href='/';
 	})

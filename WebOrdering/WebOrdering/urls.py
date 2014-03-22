@@ -26,6 +26,7 @@ urlpatterns = patterns('',
     url(r'^check_submit/$',check_submit),
     url(r'^new_customer/$',new_customer),
     url(r'^old_customer/$',old_customer),
+    url(r'^contact/$', contact),
     # check old old_customer or new_customer
     url(r'^check_phone/$',check_phone),
     url(r'^(.*).js$',js_resource),

@@ -13,8 +13,8 @@ $(function(){
 		window.location.href='/check_phone';
 	})
 
-	$('#contact').click(function(){
-		window.location.href='/contact';
+	$('#about').click(function(){
+		window.location.href='/about';
 	})
 
 	$('#home').click(function(){

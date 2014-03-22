@@ -8,6 +8,10 @@ $(function(){
 		window.location.href='../about';
 	})
 
+	$('#contact').click(function(){
+		window.location.href='../contact';
+	})
+
     $('#check_phone').click(function(){
 		window.location.href='../check_phone';
 	})
